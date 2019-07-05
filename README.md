@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License%20-Apache%202-337ab7.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Arsenal](https://img.shields.io/badge/Arsenal%20-%20VisualizerView-4cae4c.svg)](https://android-arsenal.com/details/1/6001)
 [![JCenter](https://api.bintray.com/packages/vension/vensionCenter/V-VisualizerView/images/download.svg)](https://bintray.com/vension/vensionCenter/V-VisualizerView/_latestVersion)
-[![MinSdk](https://img.shields.io/badge/%20MinSdk%20-%2021%2B%20-f0ad4e.svg)](https://android-arsenal.com/api?level=21)
+[![MinSdk](https://img.shields.io/badge/%20MinSdk%20-%2016%2B%20-f0ad4e.svg)](https://android-arsenal.com/api?level=16)
 [![Author](https://img.shields.io/badge/Author-Vension-orange.svg?style=flat-square)](https://img.shields.io/badge/Author-Vension-orange.svg?style=flat-square)
 
 ## 效果预览

@@ -18,12 +18,12 @@ def libDesc = ":point_right:Android realizes the animation effect of the rate be
 /**
  *  @param group 发布到组织名称名字，必须填写
  *  @param version 版本号，下次更新是只需要更改版本号即可
- *  （me.vension.xxx）这样写是不好的，项目名会拼上去
+ *  （kv.vension.xxx）这样写是不好的，项目名会拼上去
  *  我手欠然后最后就是这样了，大家引以为戒 implementation 'kv.vension.xxx:xxx:1.0.0'
  *  配置后上传至JCenter后的编译路径是这样的： implementation 'kv.vension.xxx:1.0.0'
  */
 group = "kv.vension"// 唯一包名,比如implementation 'kv.vension.xxx:1.0.0'中的me.vension就是这里配置的。
-version = "1.0.0"//项目引用的版本号，比如implementation 'kv.vension.xxx:1.0.0'中的1.0.0就是这里配置的。
+version = "1.0.1"//项目引用的版本号，比如implementation 'kv.vension.xxx:1.0.0'中的1.0.0就是这里配置的。
 
 
 // 生成jar包的task，不需要修改。
