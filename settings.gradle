@@ -1,0 +1,1 @@
+include ':app', ':visualizerview_kotlin', ':visualizerview_java'

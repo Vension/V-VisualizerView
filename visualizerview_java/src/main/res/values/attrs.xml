@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="VisualizerView2">
+    <attr name="spaceNum" format="integer"/>
+    <attr name="spaceWidth" format="reference|dimension"/>
+    <attr name="lineColor" format="reference|color"/>
+    <attr name="lineWidth" format="reference|dimension"/>
+    <attr name="baseHeight" format="reference|dimension"/>
+    <attr name="lineIsSingleColor" format="boolean"/>
+    <attr name="firstPartColor" format="reference|color"/>
+    <attr name="secondPartColor" format="reference|color"/>
+    <attr name="thirdPartColor" format="reference|color"/>
+    <attr name="fourthPartColor" format="reference|color"/>
+  </declare-styleable>
+
+
+  <declare-styleable name="VisualizerView">
+    <!-- 是否有倒影 -->
+    <attr name="hasShadow" format="boolean"/>
+    <!-- 倒影音频块数 -->
+    <attr name="shadowNum" format="integer"/>
+    <!-- 倒影颜色 -->
+    <attr name="shadowColor" format="reference|color"/>
+    <!-- 音频块颜色 -->
+    <attr name="visualColor" format="reference|color"/>
+    <!-- 音频块颜色是否渐变 -->
+    <attr name="isGradient" format="boolean"/>
+    <!-- 渐变开始颜色 -->
+    <attr name="colorStart" format="reference|color"/>
+    <!-- 渐变中间颜色 -->
+    <attr name="colorCenter" format="reference|color"/>
+    <!-- 渐变结束颜色 -->
+    <attr name="colorEnd" format="reference|color"/>
+  </declare-styleable>
+
+</resources>
