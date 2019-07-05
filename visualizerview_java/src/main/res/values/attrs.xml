@@ -16,21 +16,21 @@
 
   <declare-styleable name="VisualizerView">
     <!-- 是否有倒影 -->
-    <attr name="hasShadow" format="boolean"/>
+    <attr name="kv_hasShadow" format="boolean"/>
     <!-- 倒影音频块数 -->
-    <attr name="shadowNum" format="integer"/>
+    <attr name="kv_shadowNum" format="integer"/>
     <!-- 倒影颜色 -->
-    <attr name="shadowColor" format="reference|color"/>
+    <attr name="kv_shadowColor" format="reference|color"/>
     <!-- 音频块颜色 -->
-    <attr name="visualColor" format="reference|color"/>
+    <attr name="kv_visualColor" format="reference|color"/>
     <!-- 音频块颜色是否渐变 -->
-    <attr name="isGradient" format="boolean"/>
+    <attr name="kv_isGradient" format="boolean"/>
     <!-- 渐变开始颜色 -->
-    <attr name="colorStart" format="reference|color"/>
+    <attr name="kv_colorStart" format="reference|color"/>
     <!-- 渐变中间颜色 -->
-    <attr name="colorCenter" format="reference|color"/>
+    <attr name="kv_colorCenter" format="reference|color"/>
     <!-- 渐变结束颜色 -->
-    <attr name="colorEnd" format="reference|color"/>
+    <attr name="kv_colorEnd" format="reference|color"/>
   </declare-styleable>
 
 </resources>

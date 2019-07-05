@@ -64,14 +64,14 @@ public class VisualizerView extends View implements Visualizer.OnDataCaptureList
     public VisualizerView(Context context, AttributeSet attrs) {
         super(context, attrs);
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.VisualizerView, 0, 0);
-        hasShadow = ta.getBoolean(R.styleable.VisualizerView_hasShadow,false);
-        shadowNum = ta.getInteger(R.styleable.VisualizerView_shadowNum,5);
-        shadowColor = ta.getColor(R.styleable.VisualizerView_shadowColor, Color.GRAY);
-        visualColor = ta.getColor(R.styleable.VisualizerView_visualColor, Color.RED);
-        isGradient = ta.getBoolean(R.styleable.VisualizerView_isGradient,false);
-        colorStart = ta.getColor(R.styleable.VisualizerView_colorStart, Color.parseColor("#A47586"));
-        colorCenter = ta.getColor(R.styleable.VisualizerView_colorCenter, Color.parseColor("#C36084"));
-        colorEnd = ta.getColor(R.styleable.VisualizerView_colorEnd, Color.parseColor("#F14380"));
+        hasShadow = ta.getBoolean(R.styleable.VisualizerView_kv_hasShadow,false);
+        shadowNum = ta.getInteger(R.styleable.VisualizerView_kv_shadowNum,5);
+        shadowColor = ta.getColor(R.styleable.VisualizerView_kv_shadowColor, Color.GRAY);
+        visualColor = ta.getColor(R.styleable.VisualizerView_kv_visualColor, Color.RED);
+        isGradient = ta.getBoolean(R.styleable.VisualizerView_kv_isGradient,false);
+        colorStart = ta.getColor(R.styleable.VisualizerView_kv_colorStart, Color.parseColor("#A47586"));
+        colorCenter = ta.getColor(R.styleable.VisualizerView_kv_colorCenter, Color.parseColor("#C36084"));
+        colorEnd = ta.getColor(R.styleable.VisualizerView_kv_colorEnd, Color.parseColor("#F14380"));
         ta.recycle();
         init();
     }
