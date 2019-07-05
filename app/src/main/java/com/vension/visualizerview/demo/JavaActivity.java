@@ -17,6 +17,15 @@ import androidx.core.content.ContextCompat;
 import com.vension.visualizerview_java.VisualizerView;
 import com.vension.visualizerview_java.VisualizerView2;
 
+/**
+ * ========================================================
+ * 作 者：Vension
+ * 日 期：2019/7/5 16:03
+ * 更 新：2019/7/5 16:03
+ * 描 述：
+ * ========================================================
+ */
+
 public class JavaActivity extends AppCompatActivity {
 
   private MediaPlayer mMediaPlayer;//音频

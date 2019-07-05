@@ -10,6 +10,15 @@ import android.view.View
 import kotlin.math.abs
 import kotlin.math.hypot
 
+/**
+ * ========================================================
+ * 作 者：Vension
+ * 日 期：2019/7/5 16:03
+ * 更 新：2019/7/5 16:03
+ * 描 述：音频随音谱率动跳动动画效果
+ * ========================================================
+ */
+
 class VisualizerView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) : View(context, attrs),
     Visualizer.OnDataCaptureListener {
 

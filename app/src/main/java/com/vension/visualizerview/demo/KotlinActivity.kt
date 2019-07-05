@@ -19,6 +19,15 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_kotlin.*
 
+/**
+ * ========================================================
+ * 作 者：Vension
+ * 日 期：2019/7/5 16:03
+ * 更 新：2019/7/5 16:03
+ * 描 述：
+ * ========================================================
+ */
+
 class KotlinActivity : AppCompatActivity() {
 
     private var mMediaPlayer: MediaPlayer? = null//音频
