@@ -17,14 +17,11 @@
  implementation 'kv.vension:visualizerview_kotlin:_latestVersion'
 ```
 
-## update
-* **V1.0.0**: <初始化版本>
-
 ## Usage
 
 * **具体使用查看demo示例**
 
-### attrs
+## attrs
 
 | Attribute 属性           | Description 描述 |
 |:---				       |:---|
@@ -36,6 +33,10 @@
 | kv_colorStart            | 渐变开始颜色，默认"#A47586" |
 | kv_colorCenter           | 渐变中间颜色，默认"#C36084" |
 | kv_colorEnd              | 渐变结束颜色，默认"#F14380" |
+
+## update
+* **V_1.0.0**: <初始化版本>
+* **V_1.0.1**: <降低minSDK到16+>
 
 ## License
 ```
