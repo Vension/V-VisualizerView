@@ -26,16 +26,16 @@
 
 ### attrs
 
-| Attribute 属性         | Description 描述 |
-|:---				    |:---|
-| hasShadow             | 是否有倒影，默认false      |
-| shadowNum             | 倒影音频块数，默认5         |
-| shadowColor           | 倒影颜色，默认Color.GRAY    |
-| visualColor           | 音频块颜色，默认Color.RED   |
-| isGradient            | 音频块颜色是否渐变，默认false|
-| colorStart            | 渐变开始颜色，默认"#A47586" |
-| colorCenter           | 渐变中间颜色，默认"#C36084" |
-| colorEnd              | 渐变结束颜色，默认"#F14380" |
+| Attribute 属性           | Description 描述 |
+|:---				       |:---|
+| kv_hasShadow             | 是否有倒影，默认false      |
+| kv_shadowNum             | 倒影音频块数，默认5         |
+| kv_shadowColor           | 倒影颜色，默认Color.GRAY    |
+| kv_visualColor           | 音频块颜色，默认Color.RED   |
+| kv_isGradient            | 音频块颜色是否渐变，默认false|
+| kv_colorStart            | 渐变开始颜色，默认"#A47586" |
+| kv_colorCenter           | 渐变中间颜色，默认"#C36084" |
+| kv_colorEnd              | 渐变结束颜色，默认"#F14380" |
 
 ## License
 ```
